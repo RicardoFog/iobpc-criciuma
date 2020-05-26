@@ -7,7 +7,7 @@ body{
 
 }
 header#cabecalho h1{
-    font-family: 'fonteLogo',sans-serif;
+    font-family: sans-serif;
     font-size: 50pt;
     color: #363636;
     text-shadow: 1px 1px 7px rgba( 0,0,0,.6);
@@ -17,7 +17,7 @@ header#cabecalho h1{
 }
 
 header#cabecalho h3{
-    font-family: 'fonteLogo',sans-serif;
+    font-family: sans-serif;
     font-size: 10pt;
     color: #363636;
     text-shadow: 1px 1px 1px rgba( 0,0,0,.6);
