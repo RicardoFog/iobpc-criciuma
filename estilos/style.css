@@ -13,7 +13,9 @@ header#cabecalho h1{
     text-shadow: 1px 1px 7px rgba( 0,0,0,.6);
     padding: 0px;
     margin: 0px 0px 0px 0px;
+    
 }
+
 header#cabecalho h3{
     font-family: 'fonteLogo',sans-serif;
     font-size: 10pt;
@@ -38,7 +40,8 @@ h1{
 h2{
     margin-top: 50px;
     font-size: 2em;
-    color:#2b2a2a; 
+    color:#252525; 
+    /*background-color: #cecece;*/
 }
 h3{
     
