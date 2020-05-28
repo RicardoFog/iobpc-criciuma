@@ -72,3 +72,13 @@ a:hover{
     text-decoration: underline;
     color: rgba(26,26,255);
 }
+footer#rodape {
+    
+    /*border-top: 1px solid #606060;
+    text-align: center;*/
+   margin-left: 350px;
+}
+footer#p {
+    margin-top: -15px;
+    text-align: center;
+}
