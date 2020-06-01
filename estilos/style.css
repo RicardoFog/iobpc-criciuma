@@ -1,9 +1,9 @@
 @charset "UTF-8";
-   
-*{
-margin:0;
-    padding:
-}
+  body{
+      font-family: Arial;
+
+  } 
+
 nav#menu {
     width: 100%;
     height: 50px;
@@ -27,18 +27,40 @@ nav#menu a{
     background-color: #222;
     color: white;
 }
-img#foto1{
-margin-left: 600px;
+img#foto-logo{
+    width: 300px;
+margin-left: 700px;
 margin-top: -600px;
 }
+img#redes{
+    width: 180px;
+    margin-left: 30px;
+    }
+img#voltar{
+        width: 30px;
+        margin: 100px 0px 0px ;
+    }
+img#pastor{
+        margin-left: 900px;
+    }
 h1{
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 80px;
+}
+h3{
+    margin-top: 30px;
+}
+h4{
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: -5px;
+    margin-left: 10px;
 }
 
 nav#menu ul ul{
     position: absolute;
     visibility: hidden;
+    
 }
 nav#menu ul li:hover ul {
 visibility: visible;
