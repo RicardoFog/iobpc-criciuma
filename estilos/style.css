@@ -1,36 +1,69 @@
 @charset "UTF-8";
   body{
       font-family: Arial;
+} 
+header#cabecalho{
+    width: 100%;
+    height: 160px;
+    background-color: #8a8282;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    padding-left: 20px;
+    
+}
 
-  } 
+
 
 nav#menu {
     width: 100%;
     height: 50px;
     background-color: #222;
     font-family: Arial;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
 }
-nav#menu ul{
+nav ul{
    list-style: none; 
    position: relative;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
 }
 
-nav#menu ul li{
-    width: 150px;
-    float: left;
-}
-nav#menu a{
+
+nav ul li{
+    width: 100%;
+    text-align: center;
+    width: 100%;
+    }
+  
+    nav ul li a{
+        padding: 10px 0;
+        display: inline-block;
+        text-decoration: none;
+        width: 100%;
+        background-color: #222;
+        color: white;
+        }
+/*nav#menu a{
     padding: 15px;
     display: block;
     text-decoration: none;
     text-align: center;
     background-color: #222;
     color: white;
-}
+}*/
 img#foto-logo{
     width: 300px;
-margin-left: 700px;
-margin-top: -600px;
+margin-left: 0px;
+margin-top: -20px;
 }
 img#redes{
     width: 180px;
@@ -38,17 +71,23 @@ img#redes{
     }
 img#voltar{
         width: 30px;
-        margin: 100px 0px 0px ;
+        margin: 20px 0px 0px ;
     }
 img#pastor{
-        margin-left: 900px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    img#manutencao{
+        width: 450px;
+        margin-top: 0px;
     }
 h1{
-    margin-top: 50px;
-    font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+    /*margin-top: 50px;
+    font-size: 50px;*/
 }
 h3{
-    margin-top: 30px;
+    margin-top: 0px;
 }
 h4{
     font-weight: 700;
@@ -72,4 +111,34 @@ nav#menu a:hover{
 nav#menu ul ul li{
     float: none;
     border-bottom: solid 1px #ccc;
+}
+/*Footer*/
+footer{
+    text-align: center;
+    padding 10px;
+    background-color: #222;
+    color: #ccc
+}
+/*MEDIA QUERIES*/   
+@media screen and (min-width: 768px){
+    /*NAVEGAÇÃO*/
+    nav{
+        flex-direction: row;
+        justify-content: space-around;
+     
+    }
+    nav ul{
+        flex-direction: row;
+        width: 70%;
+      
+    }
+    /*CABEÇALHO*/
+ header{
+     height: 600px;
+     height: 60vh;
+     justify-content: center;
+     margin: 0px;
+     }
+   /*Sobre*/
+
 }
