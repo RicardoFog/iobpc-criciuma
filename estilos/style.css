@@ -1,6 +1,7 @@
 @charset "UTF-8";
   body{
       font-family: Arial;
+      background-color: #8a8282
 } 
 header#cabecalho{
     width: 100%;
@@ -52,14 +53,8 @@ nav ul li{
         background-color: #222;
         color: white;
         }
-/*nav#menu a{
-    padding: 15px;
-    display: block;
-    text-decoration: none;
-    text-align: center;
-    background-color: #222;
-    color: white;
-}*/
+
+        /*IMAGENS*/
 img#foto-logo{
     width: 300px;
 margin-left: 0px;
@@ -78,9 +73,10 @@ img#pastor{
         margin-bottom: 0px;
     }
     img#manutencao{
-        width: 450px;
+        width: 400px;
         margin-top: 0px;
     }
+    /*FONTS*/
 h1{
     font-family: 'Roboto', sans-serif;
     /*margin-top: 50px;
@@ -114,11 +110,16 @@ nav#menu ul ul li{
 }
 /*Footer*/
 footer{
+    font-size: 13px;
     text-align: center;
     padding 10px;
     background-color: #222;
     color: #ccc
 }
+
+
+
+
 /*MEDIA QUERIES*/   
 @media screen and (min-width: 768px){
     /*NAVEGAÇÃO*/
@@ -139,6 +140,18 @@ footer{
      justify-content: center;
      margin: 0px;
      }
+     header#cabecalho{
+         font-size: 30px;
+        height: 600px;
+        height: 60vh;
+        justify-content: center;
+      margin-top: 0px;
+      margin-left: 200px;
+      
+     }
+     /*https://www.udemy.com/course/programacao-web-para-divulgacao-cientifica/learn/lecture/12882666#overview*/
+
+     /*https://www.rapidtables.com/convert/color/cmyk-to-rgb.html*/
    /*Sobre*/
 
 }
