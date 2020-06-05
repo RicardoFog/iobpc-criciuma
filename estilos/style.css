@@ -1,5 +1,6 @@
 @charset "UTF-8";
   body{
+      
       font-family: Arial;
       background-color: #8a8282
 } 
@@ -10,22 +11,23 @@ header#cabecalho{
     background-size: cover;
     background-position: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+    font-size: 28px;
     margin-top: 200px;
     margin-bottom: 100px;
     padding-left: 20px;
-    
-}
-
+    text-shadow: 1px 1px  rgb(177, 177, 177);
+    }
+   
 
 
 nav#menu {
     width: 100%;
     height: 50px;
     background-color: #222;
-    font-family: Arial;
+    font-family: Helvetica,arial, sans-serif;
     margin-bottom: 0px;
     margin-top: 0px;
+    
     
 }
 nav ul{
@@ -53,15 +55,19 @@ nav ul li{
         background-color: #222;
         color: white;
         }
+        article{
+            margin-top: 250px;
+        }
 
         /*IMAGENS*/
 img#foto-logo{
     width: 300px;
-margin-left: 0px;
-margin-top: -20px;
+    margin: 20px;
+
 }
 img#redes{
     width: 180px;
+    margin-top: 150px;
     margin-left: 30px;
     }
 img#voltar{
@@ -72,10 +78,7 @@ img#pastor{
         margin-left: 0px;
         margin-bottom: 0px;
     }
-    img#manutencao{
-        width: 400px;
-        margin-top: 0px;
-    }
+   
     /*FONTS*/
 h1{
     font-family: 'Roboto', sans-serif;
@@ -102,12 +105,15 @@ visibility: visible;
 }
 nav#menu a:hover{
     background-color: #8a8282;
-    color: #555;
+    color: rgb(12, 12, 12);
+    
 }
 nav#menu ul ul li{
     float: none;
     border-bottom: solid 1px #ccc;
 }
+
+
 /*Footer*/
 footer{
     font-size: 13px;
@@ -116,6 +122,10 @@ footer{
     background-color: #222;
     color: #ccc
 }
+
+
+
+
 
 
 
@@ -147,8 +157,10 @@ footer{
         justify-content: center;
       margin-top: 0px;
       margin-left: 200px;
+      padding: 20px;
       
      }
+    
      /*https://www.udemy.com/course/programacao-web-para-divulgacao-cientifica/learn/lecture/12882666#overview*/
 
      /*https://www.rapidtables.com/convert/color/cmyk-to-rgb.html*/
