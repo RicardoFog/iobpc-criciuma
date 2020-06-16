@@ -1,0 +1,13 @@
+/* Documento Css*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.uma-div{
+    position: relative;
+    margin: 0 auto;
+    height: 500px;
+    width: 1350px;
+    background-color: rgb(71, 68, 67);
+}
