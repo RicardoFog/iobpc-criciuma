@@ -53,6 +53,7 @@ header label{
 
 /*Imagens*/
 
+
 img#redes2{
     width: 180px;
     margin-top: 150px;
@@ -102,11 +103,8 @@ header{
 
 
 }
-div#sociais{
-    margin-left: 700px;
-    margin-top: -80px;
-    
-   
+#sociais{
+    clear: both;
   
 }
 
