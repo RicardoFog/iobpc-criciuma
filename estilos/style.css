@@ -87,7 +87,14 @@ img#pastor{
   }
    
     /*FONTS*/
-
+    h1{
+        margin-left: 5px;
+        margin-top: -830px;
+    }
+h4{
+    margin-left: 5px;
+    margin-top: -830px;
+}
 
 /*CABEÇALHO*/
 header{
@@ -103,8 +110,11 @@ header{
 
 
 }
-#sociais{
+div#redes{
     clear: both;
+ 
+ margin-left: 500px;
+   
   
 }
 
