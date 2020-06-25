@@ -211,6 +211,12 @@ footer{
    #check:checked ~.menu ul{
     margin-left: 5px;
    }
+   img#logo{
+    width: 50px;
+   
+    
+
+}
 body{
     background-color: rgb(71, 68, 67);;
 }
