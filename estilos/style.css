@@ -223,7 +223,11 @@ img#redes2{
 body{
     background-color: rgb(71, 68, 67);;
 }
+iframe{
+    width: 300px;
+    height: 200px;
 
+}
    }
   
     
