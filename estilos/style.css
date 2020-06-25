@@ -212,11 +212,14 @@ footer{
     margin-left: 5px;
    }
    img#logo{
-    width: 50px;
-   
-    
+    width: 80px;
 
 }
+img#redes2{
+    width: 100px;
+   
+    }
+
 body{
     background-color: rgb(71, 68, 67);;
 }
